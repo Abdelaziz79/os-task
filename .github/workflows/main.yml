@@ -10,10 +10,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps: 
-      - name: 'list testing'
+      - name: 'list testing before'
         run: ls 
 
-
+      -uses: action/checkout@v3
       
+      - name: 'list testing after'
+        run: ls 
+
 
 

@@ -10,11 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps: 
-      - name: 'testing github'
-        run: pwd 
+      - name: 'list testing'
+        run: ls 
 
 
-      - name: 'testing printing'
-        run: echo abdelaziz 
+      
 
 

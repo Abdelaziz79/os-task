@@ -10,13 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps: 
-      - name: 'list testing before'
-        run: ls 
-
       - uses: actions/checkout@v3
       
-      - name: 'list testing after'
-        run: ls 
+      - name: 'login to docker'
+        run: docker login --username abdelaziz79 --password dckr_pat_r2PPcl8DQIBnYZMWb0gF0aVa3J4 
 
 
 

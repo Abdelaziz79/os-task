@@ -13,7 +13,7 @@ jobs:
       - name: 'list testing before'
         run: ls 
 
-      -uses: action/checkout@v3
+      -uses: actions/checkout@v3
       
       - name: 'list testing after'
         run: ls 
